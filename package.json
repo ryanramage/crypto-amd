@@ -1,19 +1,10 @@
 {
-  "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
-  "name": "crypto-browserify",
-  "description": "partial implementation of crypto for the browser",
+  "name": "crypto",
+  "main" : "index.js",
+  "description": "partial implementation of crypto for the amd",
   "version": "0.0.1",
-  "homepage": "https://github.com/dominictarr/crypto-browserify",
-  "repository": {
-    "url": ""
-  },
-  "scripts": {
-    "test": "node test/simple.js"
-  },
-  "engines": {
-    "node": "*"
-  },
-  "dependencies": {},
-  "devDependencies": {},
-  "optionalDependencies": {}
+  "categories": ["node.js", "utils", "crypto"],
+   "dependencies": {
+        "sha1": ">1.4.2"
+   }
 }

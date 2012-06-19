@@ -1,4 +1,4 @@
-# crypto-browserify
+# crypto-amd
 
 A (partial) port of `crypto` to amd.
 
